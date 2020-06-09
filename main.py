@@ -21,9 +21,9 @@ def push():
 
 
 # if day > 20, there will be contributions today
-day = random.randrange(0, 100)
-if day < 21:
-    exit()
+# day = random.randrange(0, 100)
+# if day < 21:
+#     exit()
 
 # filename
 today = datetime.today().strftime('%Y-%m-%d')
