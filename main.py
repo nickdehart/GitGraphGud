@@ -8,6 +8,10 @@ def run(*args):
     return subprocess.check_call(['git'] + list(args))
 
 
+def pull():
+    run("pull")
+
+
 def add():
     run("add", ".")
 
@@ -24,6 +28,9 @@ def push():
 # day = random.randrange(0, 100)
 # if day < 21:
 #     exit()
+
+# pull new changes before commiting new changes
+pull()
 
 # filename
 today = datetime.today().strftime('%Y-%m-%d')
