@@ -2,11 +2,11 @@
 
 name: DailyCronJob
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   schedule:
-  - cron: "0 0 * * *" #runs at 00:00 UTC everyday
+    - cron: "0 0 * * *" #runs at 00:00 UTC everyday
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,10 +29,10 @@ jobs:
       - name: execute py script # run the CreateReadme.py to update readme
         run: |
           python main.py
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v6
-        with:
-          author_name: nickdehart
-          author_email: nickdehart@gmail.com
-          message: "Updated Readme"
-          add: "."
+      # - name: Commit changes
+      #   uses: EndBug/add-and-commit@v6
+      #   with:
+      #     author_name: nickdehart
+      #     author_email: nickdehart@gmail.com
+      #     message: "Updated Readme"
+      #     add: "."

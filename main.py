@@ -8,6 +8,11 @@ def run(*args):
     return subprocess.check_call(['git'] + list(args))
 
 
+def setup():
+    run("config", "user.email", '"nickdehart@gmail.com"')
+    run("config", "user.name", '"nickdehart"')
+
+
 def pull():
     run("pull")
 
@@ -29,8 +34,10 @@ def push():
 # if day < 21:
 #     exit()
 
+setup()
+
 # pull new changes before commiting new changes
-pull()
+# pull()
 
 # filename
 today = datetime.today().strftime('%Y-%m-%d')
