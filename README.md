@@ -14,7 +14,7 @@
 
 #### Introducing: GitGraphGud&copy;
 
-- Just fork this repo and allow Github's Actions to run it as a CRON job everyday.
+- Just fork this repo, update username and email in config.yml, and allow Github's Actions to run it as a CRON job everyday.
 - Soon your GitHub graph will be looking like a sea of green.
 
 #### How does it work?
