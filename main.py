@@ -13,10 +13,6 @@ def setup():
     run("config", "user.name", '"nickdehart"')
 
 
-def pull():
-    run("pull")
-
-
 def add():
     run("add", ".")
 
@@ -29,15 +25,7 @@ def push():
     run("push", "-u", "origin", "master")
 
 
-# if day > 20, there will be contributions today
-# day = random.randrange(0, 100)
-# if day < 21:
-#     exit()
-
 setup()
-
-# pull new changes before commiting new changes
-# pull()
 
 # filename
 today = datetime.today().strftime('%Y-%m-%d')

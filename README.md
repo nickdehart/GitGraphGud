@@ -14,9 +14,7 @@
 
 #### Introducing: GitGraphGud&copy;
 
-- Just fork this repo and run main.py as a CRON job everyday.
-  - Windows instructions can be found here [`https://datatofish.com/python-script-windows-scheduler/`](https://datatofish.com/python-script-windows-scheduler/)
-  - Don't forget to set the `Start in (optional:)` field to the path of this repo when creating the action.
+- Just fork this repo and allow Github's Actions to run it as a CRON job everyday.
 - Soon your GitHub graph will be looking like a sea of green.
 
 #### How does it work?
