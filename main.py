@@ -2,8 +2,7 @@ import os
 import subprocess
 import random
 from datetime import datetime
-from yaml import safe_load
-config = safe_load(open("./config.yml"))
+import config
 
 
 def run(*args):
@@ -11,8 +10,8 @@ def run(*args):
 
 
 def setup():
-    run("config", "user.email", config['user']['email'])
-    run("config", "user.name", config['user']['name'])
+    run("config", "user.email", config.user['email'])
+    run("config", "user.name", config.user['name'])
 
 
 def add():
