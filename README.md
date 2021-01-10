@@ -14,8 +14,8 @@
 
 #### Introducing: GitGraphGud&copy;
 
-- Just fork this repo, update username and email in `config.py`, and allow Github's Actions to run it as a CRON job everyday.
-- Soon your GitHub graph will be looking like a sea of green.
+- Just **fork** this repo, **update** username and email in `config.py`, and allow **Github's Actions** to run it as a CRON job everyday.
+- Soon your GitHub graph will be looking like a sea of... ```diff + GREEN```
 
 #### How does it work?
 
