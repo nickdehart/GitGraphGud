@@ -19,7 +19,7 @@
 
 #### How does it work?
 
-- It is simple. Contributions on the graph are just how many commits, additions, pull requests, etc. that you make.
+- It's simple. Contributions on the graph are just how many commits, additions, pull requests, etc. that you make.
 - GitGraphGud&copy; just creates a file, adds to it, and deletes it.
 - Changes are committed along the way, and your contributions are recorded.
 - You could even stick this in a private repo, set your private contributions to 'visible', and nobody would ever know.
